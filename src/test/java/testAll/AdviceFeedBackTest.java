@@ -15,13 +15,13 @@ public class AdviceFeedBackTest {
 	
 	private AdviceFeedBackDataService adviceFeedBackDataService = new AdviceFeedBackDataServiceImpl();
 	
-	@Test
-	public void test001()throws Exception{
-		AdviceFeedBackPO adviceFeedBackPO = new AdviceFeedBackPO(AdviceFeedBackState.PROCESSED,
-				"ÍøÕ¾ÈÕ³£±ÀÀ£","151250170", "151250265");
-	    adviceFeedBackPO.setAdviceId("151");
-		assertEquals(true,adviceFeedBackDataService.addAdvice(adviceFeedBackPO));
-	}
+//	@Test
+//	public void test001()throws Exception{
+//		AdviceFeedBackPO adviceFeedBackPO = new AdviceFeedBackPO(AdviceFeedBackState.PROCESSED,
+//				"ÍøÕ¾ÈÕ³£±ÀÀ£","151250170", "151250265");
+//	    adviceFeedBackPO.setAdviceId("151");
+//		assertEquals(true,adviceFeedBackDataService.addAdvice(adviceFeedBackPO));
+//	}
 	@Test
 	public void test002()throws Exception{
 		AdviceFeedBackPO adviceFeedBackPO = new AdviceFeedBackPO(AdviceFeedBackState.PROCESSED,

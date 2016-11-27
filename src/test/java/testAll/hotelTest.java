@@ -10,11 +10,11 @@ import data.service.impl.HotelDataServiceImpl;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class hotelTest {
 	HotelDataService hotelDataService = new HotelDataServiceImpl();
-	@Test
-	public void test001add() throws Exception{
-		HotelPO hotel = new HotelPO("1121234","213213", "nanjing", "金陵大酒店");
-			assertEquals(true,hotelDataService.add(hotel));
-	}
+//	@Test
+//	public void test001add() throws Exception{
+//		HotelPO hotel = new HotelPO("1121234","213213", "nanjing", "金陵大酒店");
+//			assertEquals(true,hotelDataService.add(hotel));
+//	}
 	
 	@Test
 	public void test002Find()throws Exception{
