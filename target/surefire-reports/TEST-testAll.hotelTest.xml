@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="testAll.hotelTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="testAll.hotelTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_92.jdk/Contents/Home/jre/lib"/>
@@ -26,7 +26,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Mac OS X"/>
-    <property name="classworlds.conf" value="/Users/Chen/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf7544632809541192519.tmp"/>
+    <property name="classworlds.conf" value="/Users/Chen/Documents/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1311240476149017364.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/Users/Chen/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="testAll.hotelTest" name="test002Find" time="0.002"/>
+  <testcase classname="testAll.hotelTest" name="test002Find" time="0.001"/>
   <testcase classname="testAll.hotelTest" name="test003update" time="0.001"/>
   <testcase classname="testAll.hotelTest" name="test004Del" time="0.002"/>
 </testsuite>
